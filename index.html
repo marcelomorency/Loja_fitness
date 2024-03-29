@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    
+    <main>
+        <header>
+                <h1>Loja Fitness!!!</h1>
+                
+                <div id="scroll-container">
+                    <div id="scroll-text"><b>Inove No seu Visiual!!!</b><div>
+                  </div>
+
+        </header>
+            <nav>
+            <a href="#">Produtos</a>|
+            <a href="#">Sobre</a>|
+            <a href="#">Contatos</a>
+           </nav>
+
+           <div class="row">
+               <div class="col-01">
+                <section>
+                    <h2>Roupas Fitness Apartir de $60!!!</h2>
+
+                    <div class="imgBox">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img src="./assets/foto1.jpg" >
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./assets/foto2.jpg" >
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./assets/foto3.jpg" >
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./assets/foto4.jpg" >
+                              </div>
+                              <div class="swiper-slide">
+                                <img src="./assets/foto5.jpg" >
+                              </div>
+                                <div class="swiper-slide">
+                                    <img src="./assets/foto6.jpg">
+                                  </div>
+                              </div>
+                    
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                 Integer orci dui, consectetur ac leo auctor, imperdiet semper dui. 
+                                 Nam vitae porttitor nulla. Nullam sollicitudin magna et vestibulum suscipit.
+                                  Aliquam convallis, justo vel mattis scelerisque, ex ligula sollicitudin sapien,
+                                   vitae maximus purus dolor et urna. Duis rhoncus nunc sed erat sollicitudin, 
+                                   vel mattis ipsum cursus. Quisque lobortis eros vitae diam euismod, et lacinia eros fringilla.
+                                    Duis tincidunt sem in mauris sodales, ut rutrum ipsum interdum. Nulla non vulputate mauris,
+                                     sodales posuere mi. Vestibulum hendrerit dignissim finibus. Aenean ut sapien vitae est viverra maximus.
+                                 In eleifend et mi tincidunt malesuada. Nunc non pulvinar ex.
+                            </p>
+                            
+
+                </section>
+                <aside>
+                    <a href="https://twitter.com/x?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @x</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                   
+                </aside>
+                </div>
+           </div>
+        
+    </main>
+    <footer>
+        <ul class="sci">
+            <li><a href="#"><img src="assets/facebook.png"></a></li>
+            <li><a href="#"><img src="assets/twitter.png"></a></li>
+            <li><a href="#"><img src="assets/instagram.png"></a></li> 
+        
+
+        </ul>
+        <p>&copy Todos os direitos reservados ao time de estudantes de ciência da computação.</p>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 200,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          loop:true,
+        });
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            menuToggle.classList.toggle('active');
+        }
+    
+    </script>
+</body>
+</html>
